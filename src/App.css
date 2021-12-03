@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mulish&display=swap');
+/* color codes  */
+/* light green- #00FF90 */
+/* cream green- #80ED99 */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* font-family: 'Asap Condensed', sans-serif; */
+font-family: 'Mulish', sans-serif;
+}
+h1{
+  font-size: 2.5rem;
+  margin:1rem;
+}
+h2{
+  margin: 1rem;
+  font-size: 1.6rem;
+ 
+}
+h3{
+  font-size: 1.6rem;
+  color:green;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.navbar-shadow{
+  /* background-color: black; */
+  box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
+}
+.wrapper{
+  margin: 5rem;
+  margin-top: 5rem;
+  color: #ffff;
+  width: 40vw;
+  border: 1px solid black;
+}
+.wrapper span{
+  color: #00FF90;
+  font-size: 2.6rem;
+}
+/* .banner-image{
+  width: 40vw;
+  
+} */
+.group3595{
+  /* margin-left: 1rem; */
+  /* text-align: center; */
+  /* padding-left: 5rem; */
+  /* margin: 1rem; */
+  border: 1px solid black;
+height: 45rem;
+  width: 100vw;
+/* padding: 1rem; */
+  background: url("./Assets/banner.png");
+  background-repeat: no-repeat;
+}
+.btn-00FF90{
+  background:#80ED99;
+  color:#00326C;
+}
+.btn-00FF90-outline{
+  border:0.1rem solid #80ED99 ;
+  color: #00FF90;
+}
+            /* card */
+
+
+/* Auto Layout */
+.card{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 35px 40px;
+
+position: absolute;
+width: 357px;
+height: 371px;
+left: 85px;
+top: 827px;
+
+/* background: #71AED7; */
+/* accentued-drop-shadow */
+
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+border-radius: 20px;
+}
+.clioimg{
+  width: 4vw;
+  clip-path: circle();
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
+/* Responsive  */
+@media screen and (max-width:768px) {
+html{
+font-size: 50%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
