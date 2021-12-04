@@ -1,10 +1,11 @@
 import React from "react";
-
+import banner from '../Assets/banner.png'
 export default function Home() {
   return (
     <>
       <div className="group3595">
-        <div className="flex-column">
+        <img src={banner} alt="" />
+        <div className="flex-column group3595-child">
           <div className="wrapper ">
             {/* <h3>Join Us</h3> */}
             <h1><b><span>Creativity</span> starts with viewing the whole world differently</b></h1>
