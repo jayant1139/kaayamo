@@ -3,12 +3,13 @@ import './App.css';
 import Card from './Components/Card';
 import Combinecards from './Components/Combinecards';
 import Header from './Components/Header';
+import Header_wb from './Components/Header_wb';
 import Home from './Components/Home';
 
 function App() {
   return (
     <>
-    <Header/>
+    <Header_wb/>
     <Home/>
     <Combinecards/>
     {/* <Card bg="#71AED7"/> */}

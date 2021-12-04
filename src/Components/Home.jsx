@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <div className="group3595">
-        <img src={banner} alt="" />
+        {/* <img src={banner} alt="" /> */}
         <div className="flex-column group3595-child">
           <div className="wrapper ">
             {/* <h3>Join Us</h3> */}
