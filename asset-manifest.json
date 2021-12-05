@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.dd5a2892.chunk.css",
-    "main.js": "/my-app/static/js/main.5c26738d.chunk.js",
-    "main.js.map": "/my-app/static/js/main.5c26738d.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.d3c921bb.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.d3c921bb.js.map",
-    "static/js/2.8ce3b630.chunk.js": "/my-app/static/js/2.8ce3b630.chunk.js",
-    "static/js/2.8ce3b630.chunk.js.map": "/my-app/static/js/2.8ce3b630.chunk.js.map",
-    "static/js/3.fa1a20d1.chunk.js": "/my-app/static/js/3.fa1a20d1.chunk.js",
-    "static/js/3.fa1a20d1.chunk.js.map": "/my-app/static/js/3.fa1a20d1.chunk.js.map",
-    "index.html": "/my-app/index.html",
-    "static/css/main.dd5a2892.chunk.css.map": "/my-app/static/css/main.dd5a2892.chunk.css.map",
-    "static/js/2.8ce3b630.chunk.js.LICENSE.txt": "/my-app/static/js/2.8ce3b630.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/my-app/static/media/Group 3595.f32c1f3c.png",
-    "static/media/banner.dd387cb2.png": "/my-app/static/media/banner.dd387cb2.png",
-    "static/media/kaay-community.601af221.png": "/my-app/static/media/kaay-community.601af221.png"
+    "main.css": "/kaayamo/static/css/main.a80ec788.chunk.css",
+    "main.js": "/kaayamo/static/js/main.5c26738d.chunk.js",
+    "main.js.map": "/kaayamo/static/js/main.5c26738d.chunk.js.map",
+    "runtime-main.js": "/kaayamo/static/js/runtime-main.548418e8.js",
+    "runtime-main.js.map": "/kaayamo/static/js/runtime-main.548418e8.js.map",
+    "static/js/2.8ce3b630.chunk.js": "/kaayamo/static/js/2.8ce3b630.chunk.js",
+    "static/js/2.8ce3b630.chunk.js.map": "/kaayamo/static/js/2.8ce3b630.chunk.js.map",
+    "static/js/3.fa1a20d1.chunk.js": "/kaayamo/static/js/3.fa1a20d1.chunk.js",
+    "static/js/3.fa1a20d1.chunk.js.map": "/kaayamo/static/js/3.fa1a20d1.chunk.js.map",
+    "index.html": "/kaayamo/index.html",
+    "static/css/main.a80ec788.chunk.css.map": "/kaayamo/static/css/main.a80ec788.chunk.css.map",
+    "static/js/2.8ce3b630.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.8ce3b630.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kaayamo/static/media/Group 3595.f32c1f3c.png",
+    "static/media/banner.dd387cb2.png": "/kaayamo/static/media/banner.dd387cb2.png",
+    "static/media/kaay-community.601af221.png": "/kaayamo/static/media/kaay-community.601af221.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d3c921bb.js",
+    "static/js/runtime-main.548418e8.js",
     "static/js/2.8ce3b630.chunk.js",
-    "static/css/main.dd5a2892.chunk.css",
+    "static/css/main.a80ec788.chunk.css",
     "static/js/main.5c26738d.chunk.js"
   ]
 }
