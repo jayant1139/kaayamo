@@ -11,7 +11,7 @@ export default function Card(props) {
           The gradual accumulation of information about atomic and small-scale
           behaviour...
         </h5>
-        <button className="btn explore-btn">Explore</button>
+        <button className="btn explore-btn my-3">Explore</button>
       </div>
     </>
   );

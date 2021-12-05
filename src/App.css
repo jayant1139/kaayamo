@@ -13,7 +13,7 @@ body{
 font-family: 'Mulish', sans-serif;
 }
 h1{
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin:1rem;
 }
 h2{
@@ -25,11 +25,16 @@ h3{
   font-size: 1.6rem;
   color:green;
 }
+p{
+  font-size: 1rem;
+}
 .header-logo{
   width: 100vw;
   box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
   -webkit-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
   -moz-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
+
+  /* z-index:2 ; */
 }
 .items{
   /* display: inline-block; */
@@ -56,46 +61,53 @@ h3{
   /* vertical-align:middle; */
 }
 .items .ul-element li a{
+  padding: 0.5rem;
   text-decoration: none;
   /* color:#000000; */
   color: #252B42;
   font-weight: bold;
 }
+.items .ul-element li :hover{
+  /* padding: 0.5rem; */
+  border-radius: 0.4rem;
+  color:#ffff;
+  background-color: #80ED99;
+}
+/* .navbar-shadow{
 
-.navbar-shadow{
-  /* background-color: black; */
   box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 -webkit-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 3px 10px -5px rgba(0,0,0,0.75);
-}
-.wrapper{
- 
-  margin-left: 3.5rem;
+} */
+.group3595 .wrapper{
+ position: absolute;
+  margin:9rem 6rem;
   color: #ffff;
   width: 40vw;
+  
+  /* z-index: 0; */
   /* border: 1px solid black; */
 }
 .wrapper span{
   color: #00FF90;
-  font-size: 2.6rem;
+  /* font-size: 3.2rem; */
 }
 /* .banner-image{
   width: 40vw;
   
 } */
 .group3595{
-  /* margin-left: 1rem; */
-  /* text-align: center; */
-  /* padding-left: 5rem; */
-  /* margin: 1rem; */
   /* position: relative; */
-  /* border: 1px solid black; */
-height: auto;
+/* z-index: -1; */
   width: 100vw;
-  
-padding: 10rem 0;
-  background: url("./Assets/banner.png");
+  height: 50rem;
+  /* box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
+  -moz-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75); */
+/* padding:1rem; */
+  background: url("./Assets/Group\ 3595.png");
   background-repeat: no-repeat;
+  background-size:contain;
 }
 
 .btn-00FF90{
@@ -125,7 +137,7 @@ height: 28rem;
 /* background: #71AED7; */
 /* accentued-drop-shadow */
 
-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+box-shadow: 0rem 1.3rem 1.9rem rgba(0, 0, 0, 0.07);
 border-radius: 20px;
 }
 .card .line-width{
@@ -150,6 +162,18 @@ border-radius: 20px;
   margin: 1rem 0 1rem 0;
   background-color: #0077B5;
   color: #ffff;
+}
+.kaaycommunity{
+  width:40vw;
+  margin:3rem;
+  /* background-color: #00FF90; */
+}
+ .rg_img_community img{
+  width: 40vw;
+  /* border: 1px solid brown; */
+}
+.kaaycommunity h1{
+  font-weight: bold;
 }
 
 

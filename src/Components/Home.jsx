@@ -9,10 +9,10 @@ export default function Home() {
           <div className="wrapper ">
             {/* <h3>Join Us</h3> */}
             <h1><b><span>Creativity</span> starts with viewing the whole world differently</b></h1>
-            <h2>
+            <h2 className="my-5">
               Every day brings with it a fresh set of learning possibilites.
             </h2>
-            <div className="d-flex m-4">
+            <div className="d-flex m-3">
               <button className="btn btn-00FF90 ">
                 Enroll Now
               </button>
