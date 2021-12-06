@@ -1,10 +1,15 @@
 import React from 'react'
-
+import {TiSocialLinkedinCircular,TiSocialFacebookCircular,TiSocialTwitterCircular} from 'react-icons/ti'
+import {AiFillYoutube,AiFillInstagram} from 'react-icons/ai'
 export default function Footer() {
+const sizeStyle={
+    fontSize:'2rem',
+    margin:'0.3rem'
+}
     return (
         <>
         <footer>
-        <div className="d-flex justify-content-evenly">
+        <div className="d-flex justify-content-around">
          <div className="footer-column">
              <ul>
              <h5>Navigation</h5>
@@ -45,6 +50,23 @@ export default function Footer() {
              </ul>
          </div>
          </div>
+         <div className="line_width"></div>
+         <div className="social-links">
+             <a href="https://www.linkedin.com/in/jayant-singh-475643156/" target="_blank"><TiSocialLinkedinCircular style={sizeStyle}/></a>
+             <a href="https://www.facebook.com/profile.php?id=100011492779049" target="_blank"><TiSocialFacebookCircular style={sizeStyle}/></a>
+             <a href="/" target="_blank"><TiSocialTwitterCircular style={sizeStyle}/></a>
+             <a href="/" target="_blank"> <AiFillYoutube style={sizeStyle}/></a>
+             <a href="https://www.instagram.com/jayant1139/" target="_blank"><AiFillInstagram style={sizeStyle}/></a>
+         </div>
+         {/* 
+         TiSocialLinkedinCircular,
+         TiSocialFacebookCircular,
+         TiSocialTwitterCircular,
+         AiFillYoutube,
+         AiFillInstagram
+         
+         
+         */}
          </footer>
         </>
     )

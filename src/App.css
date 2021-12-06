@@ -186,14 +186,30 @@ border-radius: 20px;
 }
 /* Css for footer  */
 footer{
-  padding: 1.5rem;
+  /* width: 100vw; */
+  margin:5rem 0 0 0;
+  padding: 2rem 0;
   background-color: #183D55;
   color:#ffff;
 }
 footer a, footer a:hover{
   color:#ffff;
 }
-
+.line_width{
+  height:0.05rem;
+  width: 90vw;
+  background-color: #ffff;
+  opacity: 0.5;
+  margin: auto;
+}
+.social-links{
+  /* background-color: #00FF90; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin:1rem;
+  margin-right: 2rem;
+}
 
 /* Responsive  */
 @media screen and (max-width:768px) {
