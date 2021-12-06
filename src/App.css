@@ -67,6 +67,7 @@ align-items: center;
 .header-top-li ul li:hover{
   background-color: #22577A;
   color: #ffff;
+  cursor: pointer;
 }
 .header-logo{
   width: 100vw;
