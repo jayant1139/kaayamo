@@ -28,50 +28,74 @@ h3{
 p{
   font-size: 1rem;
 }
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.logo img{
+  width: 7rem;
+  margin-left: 1rem;
+  /* background-color: blue ; */
+}
+
+.header-top{
+background-color: #E5E5E5;
+margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+.header_shop a{
+  color:#FF6688;
+  font-weight: bold;
+ 
+}
+.header_shop .header_shop_a img{
+  width: 1.2rem;
+  padding-bottom:0.2rem ;
+}
+.header-top-li ul{
+  margin: auto;
+}
+.header-top-li ul li{
+  padding: 0.5rem;
+  margin:0 0.5rem;
+}
+.header-top-li ul li:hover{
+  background-color: #22577A;
+  color: #ffff;
+}
 .header-logo{
   width: 100vw;
-  box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
-  -moz-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
-
-  /* z-index:2 ; */
+  box-shadow: 0.0rem 0.1rem 1rem -0.5rem rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0.0rem 0.1rem 1rem -0.5rem rgba(0,0,0,0.5);
+  -moz-box-shadow: 0.0rem 0.1rem 1rem -0.5rem rgba(0,0,0,0.5);
 }
 .items{
-  /* display: inline-block; */
-  /* position: relative; */
   margin-top:1rem ;
  margin-right:2rem;
-  /* background-color: turquoise; */
-  
 }
 .items .ul-element {
-  
   display: flex;
   flex-direction: row;
- 
   text-transform: uppercase;
-  
-  /* border: 1px solid tomato; */
-  
 }
 .items .ul-element li{
- 
-  list-style: none;
   margin:0 1rem;
-  /* vertical-align:middle; */
 }
 .items .ul-element li a{
   padding: 0.5rem;
-  text-decoration: none;
-  /* color:#000000; */
   color: #252B42;
   font-weight: bold;
 }
 .items .ul-element li :hover{
-  /* padding: 0.5rem; */
-  border-radius: 0.4rem;
+  border-radius: 0.2rem;
+  font-weight: normal;
   color:#ffff;
-  background-color: #80ED99;
+  background-color: #22577A;
 }
 /* .navbar-shadow{
 
@@ -84,32 +108,17 @@ p{
   margin:9rem 6rem;
   color: #ffff;
   width: 40vw;
-  
-  /* z-index: 0; */
-  /* border: 1px solid black; */
 }
 .wrapper span{
   color: #00FF90;
-  /* font-size: 3.2rem; */
 }
-/* .banner-image{
-  width: 40vw;
-  
-} */
 .group3595{
-  /* position: relative; */
-/* z-index: -1; */
   width: 100vw;
   height: 50rem;
-  /* box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75);
-  -moz-box-shadow: 0.0rem 0.3rem 1rem -0.5rem rgba(0,0,0,0.75); */
-/* padding:1rem; */
   background: url("./Assets/Group\ 3595.png");
   background-repeat: no-repeat;
   background-size:contain;
 }
-
 .btn-00FF90{
   background:#80ED99;
   color:#00326C;
@@ -174,6 +183,15 @@ border-radius: 20px;
 }
 .kaaycommunity h1{
   font-weight: bold;
+}
+/* Css for footer  */
+footer{
+  padding: 1.5rem;
+  background-color: #183D55;
+  color:#ffff;
+}
+footer a, footer a:hover{
+  color:#ffff;
 }
 
 

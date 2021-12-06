@@ -1,12 +1,12 @@
 import React from "react";
-
+import logo from '../Assets/KAAYAMOLogo.png'
 export default function Header_wb() {
   return (
     <>
       <header>
         <div className="header-logo d-flex justify-content-between align-items-center ">
-          <div className="logo m-1">
-            <img src="KAAYAMOLogo.png" alt="" />
+          <div className="logo ">
+           <a href=""> <img src={logo} alt="" /></a>
           </div>
           <div className="items  ">
             <ul className=" ul-element">
