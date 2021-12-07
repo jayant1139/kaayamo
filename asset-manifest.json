@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/kaayamo/static/css/main.4c6cf581.chunk.css",
-    "main.js": "/kaayamo/static/js/main.835124e4.chunk.js",
-    "main.js.map": "/kaayamo/static/js/main.835124e4.chunk.js.map",
-    "runtime-main.js": "/kaayamo/static/js/runtime-main.548418e8.js",
-    "runtime-main.js.map": "/kaayamo/static/js/runtime-main.548418e8.js.map",
-    "static/js/2.8ce3b630.chunk.js": "/kaayamo/static/js/2.8ce3b630.chunk.js",
-    "static/js/2.8ce3b630.chunk.js.map": "/kaayamo/static/js/2.8ce3b630.chunk.js.map",
-    "static/js/3.fa1a20d1.chunk.js": "/kaayamo/static/js/3.fa1a20d1.chunk.js",
-    "static/js/3.fa1a20d1.chunk.js.map": "/kaayamo/static/js/3.fa1a20d1.chunk.js.map",
+    "main.css": "/kaayamo/static/css/main.1eefd597.chunk.css",
+    "main.js": "/kaayamo/static/js/main.a8472cb5.chunk.js",
+    "main.js.map": "/kaayamo/static/js/main.a8472cb5.chunk.js.map",
+    "runtime-main.js": "/kaayamo/static/js/runtime-main.c642455c.js",
+    "runtime-main.js.map": "/kaayamo/static/js/runtime-main.c642455c.js.map",
+    "static/js/2.7f95c2ba.chunk.js": "/kaayamo/static/js/2.7f95c2ba.chunk.js",
+    "static/js/2.7f95c2ba.chunk.js.map": "/kaayamo/static/js/2.7f95c2ba.chunk.js.map",
+    "static/js/3.680a8a08.chunk.js": "/kaayamo/static/js/3.680a8a08.chunk.js",
+    "static/js/3.680a8a08.chunk.js.map": "/kaayamo/static/js/3.680a8a08.chunk.js.map",
     "index.html": "/kaayamo/index.html",
-    "static/css/main.4c6cf581.chunk.css.map": "/kaayamo/static/css/main.4c6cf581.chunk.css.map",
-    "static/js/2.8ce3b630.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.8ce3b630.chunk.js.LICENSE.txt",
+    "static/css/main.1eefd597.chunk.css.map": "/kaayamo/static/css/main.1eefd597.chunk.css.map",
+    "static/js/2.7f95c2ba.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.7f95c2ba.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kaayamo/static/media/Group 3595.f32c1f3c.png",
     "static/media/banner.dd387cb2.png": "/kaayamo/static/media/banner.dd387cb2.png",
     "static/media/kaay-community.601af221.png": "/kaayamo/static/media/kaay-community.601af221.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.548418e8.js",
-    "static/js/2.8ce3b630.chunk.js",
-    "static/css/main.4c6cf581.chunk.css",
-    "static/js/main.835124e4.chunk.js"
+    "static/js/runtime-main.c642455c.js",
+    "static/js/2.7f95c2ba.chunk.js",
+    "static/css/main.1eefd597.chunk.css",
+    "static/js/main.a8472cb5.chunk.js"
   ]
 }
