@@ -11,7 +11,7 @@ export default function Header_wb() {
           <div className="items  ">
             <ul className=" ul-element">
               <li>
-                <a href="/">About</a>
+                <a href="/About.jsx">About</a>
               </li>
               <li>
                 <a href="/">Our Inspiration</a>

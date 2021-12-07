@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* color codes  */
 /* light green- #00FF90 */
 /* cream green- #80ED99 */
@@ -9,8 +10,7 @@
   box-sizing: border-box;
 }
 body{
-  /* font-family: 'Asap Condensed', sans-serif; */
-font-family: 'Mulish', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 h1{
   font-size: 3rem;
@@ -304,6 +304,47 @@ footer a, footer a:hover{
   margin-right: 2rem;
 }
 
+/* About Page  */
+.width_80{
+  width: 80%;
+  margin: 2rem;
+  /* text-align: left; */
+  font-weight: bold;
+  /* background-color: grey; */
+}
+.width_80 p{
+  font-size: 1rem;
+  font-weight: normal;
+}
+.width_80 h1{
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.width_80 span{
+  font-weight: bold;
+  color:#96BB7C;
+}
+.width_80 h2{
+  font-weight: bold;
+  margin:1rem 0;
+}
+.founder_card{
+  width:18rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+  /* border:1px solid greenyellow; */
+  border-radius: 0.8rem;
+  padding: 1rem;
+  box-shadow: 0rem 1.1rem 2.5rem rgba(0, 0, 0, 0.1);
+
+}
+.founder_card img{
+  clip-path: circle();
+  width: 10rem;
+  margin: 1rem;
+}
 /* Responsive  */
 @media screen and (max-width:768px) {
 html{

@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import About from './Components/About';
 import Card from './Components/Card';
 import Combinecards from './Components/Combinecards';
 import FindLikeYou from './Components/FindLikeYou';
@@ -16,11 +17,13 @@ function App() {
     <>
     <Header_top/>
     <Header_wb/>
+{/*     
     <Home/>
     <Combinecards/>
     <Kaaycommunity/>
     <Kaay_after_community_card/>
-    <FindLikeYou/>
+    <FindLikeYou/> */}
+    <About/>
     <Footer/>
     {/* <Card bg="#71AED7"/> */}
     </>
