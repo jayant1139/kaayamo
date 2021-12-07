@@ -15,8 +15,8 @@ export default function Header_top() {
             </ul>
             </div>
             <div className="header_shop d-flex  ">
-                <a className="mx-1"  href="/">Signin</a>
-                <a className="mx-1 header_shop_a" href="/"><img src={cart} alt="" /></a>
+                <a className="mx-2"  href="/">Signin</a>
+                <a className="mx-2 header_shop_a" href="/"><img src={cart} alt="" /></a>
             </div>
         </div>
         </>
