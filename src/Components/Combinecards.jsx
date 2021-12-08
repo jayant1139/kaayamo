@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Card from './Card'
 import passout from '../Assets/passout-hat.png'
 import kaaylive from '../Assets/kaay-live.png'

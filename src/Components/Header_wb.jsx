@@ -1,26 +1,49 @@
 import React from "react";
-import logo from '../Assets/KAAYAMOLogo.png'
+import { NavLink } from "react-router-dom";
+import logo from "../Assets/KAAYAMOLogo.png";
 export default function Header_wb() {
   return (
     <>
       <header>
         <div className="header-logo d-flex justify-content-between align-items-center ">
           <div className="logo ">
-           <a href=""> <img src={logo} alt="" /></a>
+            <NavLink to="/">
+              {" "}
+              <img src={logo} alt="" />
+            </NavLink>
           </div>
           <div className="items  ">
             <ul className=" ul-element">
               <li>
-                <a href="/About.jsx">About</a>
+                <NavLink
+                  to="/About"
+                  style={({ isActive }) =>  isActive? {color: "#fff",background: "#22577A",borderRadius:"0.2rem",fontWeight:"normal"}: { color: "black", background: "" } }
+                >
+                  About
+                </NavLink>
               </li>
               <li>
-                <a href="/">Our Inspiration</a>
+                <NavLink
+                  to="/Inspiration"
+                  style={({ isActive }) =>  isActive? {color: "#fff",background: "#22577A",borderRadius:"0.2rem",fontWeight:"normal"}: { color: "black", background: "" } }                >
+                  Our Inspiration
+                </NavLink>
               </li>
               <li>
-                <a href="/">Programs</a>
+                <NavLink
+                  to="/Programs"
+                  style={({ isActive }) =>  isActive? {color: "#fff",background: "#22577A",borderRadius:"0.2rem",fontWeight:"normal"}: { color: "black", background: "" } }
+                >
+                  Programs
+                </NavLink>
               </li>
               <li>
-                <a href="/">Course Catalog</a>
+                <NavLink
+                  to="/Coursecatalog"
+                  style={({ isActive }) =>  isActive? {color: "#fff",background: "#22577A",borderRadius:"0.2rem",fontWeight:"normal"}: { color: "black", background: "" } }
+                >
+                  Course Catalog
+                </NavLink>
               </li>
             </ul>
           </div>

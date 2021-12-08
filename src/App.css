@@ -35,6 +35,7 @@ ul li{
 a{
   text-decoration: none;
 }
+
 .upper_bold{
   text-transform: uppercase;
   font-weight: bold;
@@ -69,6 +70,10 @@ align-items: center;
   padding: 0.5rem;
   margin:0 0.5rem;
 }
+.bg_blue{
+  background-color: #22577A;
+  color: #ffff;
+}
 .header-top-li ul li:hover{
   background-color: #22577A;
   color: #ffff;
@@ -98,10 +103,10 @@ align-items: center;
   font-weight: bold;
 }
 .items .ul-element li :hover{
-  border-radius: 0.2rem;
-  font-weight: normal;
-  color:#ffff;
-  background-color: #22577A;
+  border-radius: 0.2rem !important;
+  font-weight: normal !important;
+  color:#ffff !important;
+  background-color: #22577A !important;
 }
 /* .navbar-shadow{
 

@@ -1,5 +1,9 @@
 import React from "react";
 import banner from '../Assets/banner.png'
+import Kaaycommunity from './Kaaycommunity';
+import Kaay_after_community_card from './Kaay_after_community_card';
+import Combinecards from './Combinecards';
+import FindLikeYou from './FindLikeYou';
 export default function Home() {
   return (
     <>
@@ -23,7 +27,13 @@ export default function Home() {
         {/* <div className="banner-imgdiv">
         <img className="banner-image m-5" src="banner-image.png" alt="" />
       </div> */}
+
       </div>
+    
+    <Combinecards/>
+    <Kaaycommunity/>
+    <Kaay_after_community_card/>
+    <FindLikeYou/> 
     </>
   );
 }

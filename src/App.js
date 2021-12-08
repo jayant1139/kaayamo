@@ -1,29 +1,36 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Route, Routes } from 'react-router-dom'
+import Home from './Components/Home';
 import About from './Components/About';
-import Card from './Components/Card';
-import Combinecards from './Components/Combinecards';
-import FindLikeYou from './Components/FindLikeYou';
+import Inspiration from './Components/Inspiration';
+import Programs from './Components/Programs';
+import Coursecatalog from './Components/Coursecatalog';
 import Footer from './Components/Footer';
-import Header from './Components/Header';
+// import Header from './Components/Header';
 import Header_top from './Components/Header_top';
 import Header_wb from './Components/Header_wb';
-import Home from './Components/Home';
-import Kaaycommunity from './Components/Kaaycommunity';
-import Kaay_after_community_card from './Components/Kaay_after_community_card';
 
-function App() {
+const App=(history)=> {
+  console.log(history)
+const getColor=(curr)=>{
+
+}
   return (
     <>
-    <Header_top/>
+     <Header_top/>
     <Header_wb/>
-{/*     
-    <Home/>
-    <Combinecards/>
-    <Kaaycommunity/>
-    <Kaay_after_community_card/>
-    <FindLikeYou/> */}
-    <About/>
+    {/* <Home/> */}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/About" element={<About />}  />
+      <Route  path="/Inspiration" element={<Inspiration />} />
+      <Route  path="/Programs" element={<Programs />} />
+      <Route  path="/Coursecatalog" element={<Coursecatalog />} />
+    </Routes>
+  {/* <Home/> */}
+    
+    {/* <About/> */}
     <Footer/>
     {/* <Card bg="#71AED7"/> */}
     </>
