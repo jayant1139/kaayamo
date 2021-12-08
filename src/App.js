@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes,Navigate } from 'react-router-dom'
 import Home from './Components/Home';
 import About from './Components/About';
 import Inspiration from './Components/Inspiration';
@@ -24,9 +24,10 @@ const getColor=(curr)=>{
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />}  />
-      <Route  path="/Inspiration" element={<Inspiration />} />
-      <Route  path="/Programs" element={<Programs />} />
-      <Route  path="/Coursecatalog" element={<Coursecatalog />} />
+      <Route path="/Inspiration" element={<Inspiration />} />
+      <Route path="/Programs" element={<Programs />} />
+      <Route path="/Coursecatalog" element={<Coursecatalog />} />
+      <Route path="*" element={<Home />} />
     </Routes>
   {/* <Home/> */}
     
