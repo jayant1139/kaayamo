@@ -6,9 +6,9 @@ import bgimage from "../Assets/after community_1.png"
 export default function Kaay_after_community_card() {
   return (
     <>
-      <div className="kaay_after_card my-5">
+      <div className="kaay_after_card">
         {/* <img className="bgimage" src={bgimage} alt="" /> */}
-        <div className=" d-flex justify-content-evenly ">
+        <div className=" d-flex justify-content-center  ">
           <div className=" kaay_after_card_item">
             <img src={fixedheight} alt="" />
             <h6>Apply for Ongoing contest</h6>
