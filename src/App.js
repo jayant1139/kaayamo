@@ -10,6 +10,7 @@ import Footer from './Components/Footer';
 // import Header from './Components/Header';
 import Header_top from './Components/Header_top';
 import Header_wb from './Components/Header_wb';
+import Signup from './Components/Forms/Signup';
 
 const App=(history)=> {
   console.log(history)
@@ -31,7 +32,7 @@ const getColor=(curr)=>{
     </Routes>
   {/* <Home/> */}
     
-    {/* <About/> */}
+    <Signup/>
     <Footer/>
     {/* <Card bg="#71AED7"/> */}
     </>
