@@ -406,13 +406,22 @@ margin: auto;
 /* Inspiration page css ends here */
 
 /* Forms Css  */
-.forms{
+.formwrap{
   box-shadow: 0rem 1.3rem 1.9rem rgba(0, 0, 0, 0.07);
   border-radius: 0.2rem;
   border: 0.1rem solid rgba(248, 246, 246, 0.808);
   width: 45vw;
   margin: auto;
   padding: 3.5rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* left: auto; */
 }
 .forms input{
   height: 2.8rem;

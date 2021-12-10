@@ -13,10 +13,10 @@ import Header_wb from './Components/Header_wb';
 import Signup from './Components/Forms/Signup';
 
 const App=(history)=> {
-  console.log(history)
-const getColor=(curr)=>{
+//   console.log(history)
+// const getColor=(curr)=>{}
 
-}
+
   return (
     <>
      <Header_top/>
@@ -32,9 +32,9 @@ const getColor=(curr)=>{
     </Routes>
   {/* <Home/> */}
     
-    <Signup/>
+    {/* <Signup/> */}
     <Footer/>
-    {/* <Card bg="#71AED7"/> */}
+    
     </>
   );
 }

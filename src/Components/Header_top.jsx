@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import cart from '../Assets/shopping_cart.png'
 export default function Header_top() {
     return (
@@ -15,7 +16,7 @@ export default function Header_top() {
             </ul>
             </div>
             <div className="header_shop d-flex  ">
-                <a className="mx-2"  href="/">Signin</a>
+                <NavLink className="mx-2"  to="/Signup">Signin</NavLink>
                 <a className="mx-2 header_shop_a" href="/"><img src={cart} alt="" /></a>
             </div>
         </div>
