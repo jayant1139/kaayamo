@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/kaayamo/static/css/main.b676c952.chunk.css",
-    "main.js": "/kaayamo/static/js/main.3c5cb7bd.chunk.js",
-    "main.js.map": "/kaayamo/static/js/main.3c5cb7bd.chunk.js.map",
+    "main.css": "/kaayamo/static/css/main.1a83a063.chunk.css",
+    "main.js": "/kaayamo/static/js/main.9f531f93.chunk.js",
+    "main.js.map": "/kaayamo/static/js/main.9f531f93.chunk.js.map",
     "runtime-main.js": "/kaayamo/static/js/runtime-main.d7a5d89e.js",
     "runtime-main.js.map": "/kaayamo/static/js/runtime-main.d7a5d89e.js.map",
-    "static/js/2.12da3335.chunk.js": "/kaayamo/static/js/2.12da3335.chunk.js",
-    "static/js/2.12da3335.chunk.js.map": "/kaayamo/static/js/2.12da3335.chunk.js.map",
+    "static/js/2.6443f8ee.chunk.js": "/kaayamo/static/js/2.6443f8ee.chunk.js",
+    "static/js/2.6443f8ee.chunk.js.map": "/kaayamo/static/js/2.6443f8ee.chunk.js.map",
     "index.html": "/kaayamo/index.html",
-    "static/css/main.b676c952.chunk.css.map": "/kaayamo/static/css/main.b676c952.chunk.css.map",
-    "static/js/2.12da3335.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.12da3335.chunk.js.LICENSE.txt",
+    "static/css/main.1a83a063.chunk.css.map": "/kaayamo/static/css/main.1a83a063.chunk.css.map",
+    "static/js/2.6443f8ee.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.6443f8ee.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kaayamo/static/media/after community.102bd6b3.svg",
     "static/media/Rectangle 3421.fd74ffdc.png": "/kaayamo/static/media/Rectangle 3421.fd74ffdc.png",
     "static/media/after community_1.524169ce.png": "/kaayamo/static/media/after community_1.524169ce.png",
     "static/media/banner.dd387cb2.png": "/kaayamo/static/media/banner.dd387cb2.png",
+    "static/media/dummyboyprof.e1420a10.svg": "/kaayamo/static/media/dummyboyprof.e1420a10.svg",
+    "static/media/dummygirlprof.7cf23271.svg": "/kaayamo/static/media/dummygirlprof.7cf23271.svg",
     "static/media/dummyprofile.0de317cf.png": "/kaayamo/static/media/dummyprofile.0de317cf.png",
     "static/media/fixed-height sec-1.b6cd85fa.png": "/kaayamo/static/media/fixed-height sec-1.b6cd85fa.png",
     "static/media/fixed-height sec-2.0e1a89b9.png": "/kaayamo/static/media/fixed-height sec-2.0e1a89b9.png",
@@ -22,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d7a5d89e.js",
-    "static/js/2.12da3335.chunk.js",
-    "static/css/main.b676c952.chunk.css",
-    "static/js/main.3c5cb7bd.chunk.js"
+    "static/js/2.6443f8ee.chunk.js",
+    "static/css/main.1a83a063.chunk.css",
+    "static/js/main.9f531f93.chunk.js"
   ]
 }
