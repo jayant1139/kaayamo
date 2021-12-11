@@ -29,8 +29,12 @@ p{
   font-size: 1rem;
 }
 ul li{
-  font-size: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
   list-style: none;
+}
+ul li:hover{
+  font-weight: normal;
 }
 a{
   text-decoration: none;
