@@ -20,7 +20,10 @@ const App=(history)=> {
   return (
     <>
      <Header_top/>
-    <Header_wb/>
+     <Routes>
+       <Route path="/"/>
+     </Routes>
+     <Header_wb/>
     {/* <Home/> */}
     <Routes>
       <Route path="/" element={<Home />} />

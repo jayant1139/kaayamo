@@ -30,12 +30,10 @@ p{
 }
 ul li{
   font-size: 0.9rem;
-  font-weight: bold;
+  /* font-weight: bold; */
   list-style: none;
 }
-ul li:hover{
-  font-weight: normal;
-}
+
 a{
   text-decoration: none;
 }
@@ -200,7 +198,7 @@ border-radius: 20px;
   /* border: 1px solid tomato; */
   background-color: #E74040;
   /* width:100%; */
-  background: url('./Assets/after\ community.svg');
+  background: url('./Assets/after\ community_1.svg');
 background-repeat: no-repeat;
 background-attachment:scroll;
 background-size:contain;

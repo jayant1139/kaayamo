@@ -4,6 +4,7 @@ import Kaaycommunity from './Kaaycommunity';
 import Kaay_after_community_card from './Kaay_after_community_card';
 import Combinecards from './Combinecards';
 import FindLikeYou from './FindLikeYou';
+
 export default function Home() {
   return (
     <>
