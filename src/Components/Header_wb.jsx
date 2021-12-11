@@ -5,7 +5,8 @@ export default function Header_wb() {
   return (
     <>
       <header>
-        <div className="header-logo d-flex justify-content-between align-items-center ">
+        <div className="second-header">
+        <div className="second-header_1 header-logo d-flex justify-content-between align-items-center ">
           <div className="logo ">
             <NavLink to="/">
               {" "}
@@ -47,6 +48,7 @@ export default function Header_wb() {
               </li>
             </ul>
           </div>
+        </div>
         </div>
       </header>
     </>

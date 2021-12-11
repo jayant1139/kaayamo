@@ -2,7 +2,6 @@ import React from "react";
 import fixedheight from "../Assets/fixed-height sec.png";
 import fixedheight1 from "../Assets/fixed-height sec-1.png";
 import fixedheight2 from "../Assets/fixed-height sec-2.png";
-import bgimage from "../Assets/after community_1.png"
 export default function Kaay_after_community_card() {
   return (
     <>

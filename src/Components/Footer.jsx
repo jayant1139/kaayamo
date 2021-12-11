@@ -9,6 +9,20 @@ const sizeStyle={
     return (
         <>
         <footer>
+            <div className="main-footer">
+                <div className="footer-top">
+                <div className=" d-flex flex-column justify-content-around">
+                <img src={require('../Assets/baby-girl.png').default} alt="" />
+                <div className="subscribe-kaayamo">
+                    <div className="subscribe-item"><h6>Subscribe KAAY AMO</h6></div>
+                    <div className="subscribe-item subscribe-bg d-flex align-items-center my-3">
+                    <div className=""><input type="mail" placeholder='Enter your email'></input></div>
+                    <div className=""><button className='btn-subscribe'>Subscribe Now </button></div>
+                </div>
+                </div>
+                </div>
+                </div>
+        <div className="footer-bottom">
         <div className="d-flex justify-content-around">
          <div className="footer-column">
              <ul>
@@ -58,15 +72,8 @@ const sizeStyle={
              <a href="/" target="_blank"> <AiFillYoutube style={sizeStyle}/></a>
              <a href="https://www.instagram.com/jayant1139/" target="_blank"><AiFillInstagram style={sizeStyle}/></a>
          </div>
-         {/* 
-         TiSocialLinkedinCircular,
-         TiSocialFacebookCircular,
-         TiSocialTwitterCircular,
-         AiFillYoutube,
-         AiFillInstagram
-         
-         
-         */}
+         </div>
+    </div>
          </footer>
         </>
     )
