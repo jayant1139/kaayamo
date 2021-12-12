@@ -11,6 +11,7 @@ import Footer from './Components/Footer';
 import Header_top from './Components/Header_top';
 import Header_wb from './Components/Header_wb';
 import Signup from './Components/Forms/Signup';
+import Dashboard from './Components/KaayStudent/Dashboard';
 
 const App=(history)=> {
 //   console.log(history)
@@ -20,11 +21,12 @@ const App=(history)=> {
   return (
     <>
      <Header_top/>
-     <Routes>
+     <Dashboard/>
+     {/* <Routes>
        <Route path="/"/>
      </Routes>
      <Header_wb/>
-    {/* <Home/> */}
+    
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/About" element={<About />}  />
@@ -32,8 +34,8 @@ const App=(history)=> {
       <Route path="/Programs" element={<Programs />} />
       <Route path="/Coursecatalog" element={<Coursecatalog />} />
       <Route path="*" element={<Home />} />
-    </Routes>
-  {/* <Home/> */}
+    </Routes> */}
+  
     
     {/* <Signup/> */}
     <Footer/>

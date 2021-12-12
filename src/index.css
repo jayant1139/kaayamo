@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dashboard{
+  margin: 2rem;
+  background-color: aqua;
+  width: 22vw;
+  padding: 1rem 0;
+}
+.dashboard .des p{
+  font-size: 0.8rem;
+  margin: 0;
+}
+.elements_cont{
+  background-color: red;
+}
