@@ -14,7 +14,7 @@ export default function Home() {
           <div className="wrapper ">
             {/* <h3>Join Us</h3> */}
             <h1><b><span>Creativity</span> starts with viewing the whole world differently</b></h1>
-            <h2 className="my-5">
+            <h2 className="my-3">
               Every day brings with it a fresh set of learning possibilites.
             </h2>
             <div className="d-flex m-3">
