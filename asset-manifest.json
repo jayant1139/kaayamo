@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/kaayamo/static/css/main.29ebe4b3.chunk.css",
-    "main.js": "/kaayamo/static/js/main.a8a78129.chunk.js",
-    "main.js.map": "/kaayamo/static/js/main.a8a78129.chunk.js.map",
+    "main.css": "/kaayamo/static/css/main.eddca41f.chunk.css",
+    "main.js": "/kaayamo/static/js/main.12f754de.chunk.js",
+    "main.js.map": "/kaayamo/static/js/main.12f754de.chunk.js.map",
     "runtime-main.js": "/kaayamo/static/js/runtime-main.d7a5d89e.js",
     "runtime-main.js.map": "/kaayamo/static/js/runtime-main.d7a5d89e.js.map",
-    "static/js/2.6443f8ee.chunk.js": "/kaayamo/static/js/2.6443f8ee.chunk.js",
-    "static/js/2.6443f8ee.chunk.js.map": "/kaayamo/static/js/2.6443f8ee.chunk.js.map",
+    "static/js/2.8e650ca4.chunk.js": "/kaayamo/static/js/2.8e650ca4.chunk.js",
+    "static/js/2.8e650ca4.chunk.js.map": "/kaayamo/static/js/2.8e650ca4.chunk.js.map",
     "index.html": "/kaayamo/index.html",
-    "static/css/main.29ebe4b3.chunk.css.map": "/kaayamo/static/css/main.29ebe4b3.chunk.css.map",
-    "static/js/2.6443f8ee.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.6443f8ee.chunk.js.LICENSE.txt",
+    "static/css/main.eddca41f.chunk.css.map": "/kaayamo/static/css/main.eddca41f.chunk.css.map",
+    "static/js/2.8e650ca4.chunk.js.LICENSE.txt": "/kaayamo/static/js/2.8e650ca4.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kaayamo/static/media/footer.8a1b9a4f.svg",
     "static/media/Rectangle 3421.fd74ffdc.png": "/kaayamo/static/media/Rectangle 3421.fd74ffdc.png",
     "static/media/baby-girl.png": "/kaayamo/static/media/baby-girl.b611d9a8.png",
@@ -24,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d7a5d89e.js",
-    "static/js/2.6443f8ee.chunk.js",
-    "static/css/main.29ebe4b3.chunk.css",
-    "static/js/main.a8a78129.chunk.js"
+    "static/js/2.8e650ca4.chunk.js",
+    "static/css/main.eddca41f.chunk.css",
+    "static/js/main.12f754de.chunk.js"
   ]
 }
