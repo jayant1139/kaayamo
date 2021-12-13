@@ -530,3 +530,8 @@ html{
 font-size: 50%;
 }
 }
+@media screen and (min-width:1440px) {
+  html{
+    font-size: 110%;
+  }
+}

@@ -21,8 +21,8 @@ const App=(history)=> {
   return (
     <>
      <Header_top/>
-     <Dashboard/>
-     {/* <Routes>
+     {/* <Dashboard/> */}
+     <Routes>
        <Route path="/"/>
      </Routes>
      <Header_wb/>
@@ -34,7 +34,7 @@ const App=(history)=> {
       <Route path="/Programs" element={<Programs />} />
       <Route path="/Coursecatalog" element={<Coursecatalog />} />
       <Route path="*" element={<Home />} />
-    </Routes> */}
+    </Routes>
   
     
     {/* <Signup/> */}
