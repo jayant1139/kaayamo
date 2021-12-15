@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {CgClose} from 'react-icons/cg'
 export default function Signup() {
     const close_style={
@@ -19,11 +20,16 @@ export default function Signup() {
             <div className="d-flex flex-column">
                 <input type="text" placeholder="Email Address" />
                 <input type="text" placeholder="Contact Number"/>
+                <input type="text" placeholder="Mother Name"/>
+                <input type="text" placeholder="Father Name"/>
+                <input type="text" placeholder="Address"/>
+                <input type="text" placeholder="School Name"/>
+
                 <input type="password" placeholder="Password"/>
             </div>
             <div className="d-flex justify-content-between">
             <button className=" btn-signup">Sign Up</button>
-            <button className=" btn-signin">Sign in</button>
+           <a href="/Signin"> <button className=" btn-signin">Sign in</button></a>
             </div>
             </div>
             </div>

@@ -12,6 +12,7 @@ import Header_top from './Components/Header_top';
 import Header_wb from './Components/Header_wb';
 import Signup from './Components/Forms/Signup';
 import Dashboard from './Components/KaayStudent/Dashboard';
+import Signin from './Components/Forms/Signin';
 
 const App=(history)=> {
 //   console.log(history)
@@ -22,7 +23,7 @@ const App=(history)=> {
     <>
      <Header_top/>
      {/* <Dashboard/> */}
-     <Routes>
+     {/* <Routes>
        <Route path="/"/>
      </Routes>
      <Header_wb/>
@@ -35,9 +36,10 @@ const App=(history)=> {
       <Route path="/Coursecatalog" element={<Coursecatalog />} />
       <Route path="*" element={<Home />} />
     </Routes>
-  
+   */}
     
-    {/* <Signup/> */}
+    <Signup/>
+    <Signin/>
     <Footer/>
     
     </>
