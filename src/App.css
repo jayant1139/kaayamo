@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Nunito&display=swap');
 /* color codes  */
 /* light green- #00FF90 */
 /* cream green- #80ED99 */
@@ -10,11 +10,16 @@
   box-sizing: border-box;
 }
 body{
-  font-family: 'Montserrat', sans-serif;
+ 
+font-family: 'Comic Neue', cursive;
+
+
+
 }
 h1{
   font-size: 3rem;
   margin:1rem;
+  font-family: 'Nunito', sans-serif;
 }
 h2{
   margin: 1rem;
@@ -27,10 +32,12 @@ h3{
 }
 p{
   font-size: 1rem;
+  /* font-family: 'Comic Neue', cursive; */
 }
 ul li{
-  font-size: 0.9rem;
-  /* font-weight: bold; */
+  font-size: 1rem;
+  font-weight: 400;
+  color: #070707;
   list-style: none;
 }
 input{
@@ -46,7 +53,7 @@ a{
 }
 .logo img{
   width: 7rem;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   /* background-color: blue ; */
 }
 
@@ -55,7 +62,10 @@ a{
   /* background-color: greenyellow; */
 }
 .header-top{
-background-color: #E5E5E5;
+background-color: #ffffff;
+padding: 0.5rem;
+
+border-bottom: 0.1rem solid #DCDADA;
 margin: 0;
 display: flex;
 flex-direction: row;
@@ -63,8 +73,8 @@ justify-content: space-around;
 align-items: center;
 }
 .header_shop a{
-  color:#FF6688;
-  font-weight: bold;
+  /* color:#FF6688; */
+  font-weight: 400;
  
 }
 .header_shop .header_shop_a img{
@@ -75,7 +85,8 @@ align-items: center;
   margin: auto;
 }
 .header-top-li ul li{
-  padding: 0.5rem;
+  padding:0.5rem;
+  padding-top: 0.7rem;
   margin:0 0.5rem;
 }
 .bg_blue{
@@ -83,7 +94,8 @@ align-items: center;
   color: #ffff;
 }
 .header-top-li ul li:hover{
-  background-color: #22577A;
+  background-color: #E1701A;
+  border-radius: 9.0rem 9.0rem 5.0rem 5.0rem;
   color: #ffff;
   cursor: pointer;
 }
@@ -114,34 +126,64 @@ align-items: center;
   border-radius: 0.2rem !important;
   font-weight: normal !important;
   color:#ffff !important;
-  background-color: #22577A !important;
+  background-color: #E1701A !important;
 }
-
+.signin-header{
+  color: #070707;
+  padding: 0.5rem;
+}
+.signin-header:hover{
+  color: #fff;
+  background-color: #E1701A;
+  border-radius: 9.0rem 9.0rem 5.0rem 5.0rem;
+}
+.signup-header{
+  color: #fff;
+  background-color: #E1701A;
+  padding: 0.5rem;
+  border-radius: 9.0rem 9.0rem 5.0rem 5.0rem;
+}
+.signup-header:hover{
+  color: #fff;
+  background-color: #e1701ad7;
+}
+.top-h1-yellow{
+  color:#FBD148;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
 .group3595 .wrapper{
  position: absolute;
-  margin:9rem 6rem;
-  color: #ffff;
-  width: 40vw;
+  /* margin: auto; */
+  left: 40%;
+  bottom: 1rem;
+  /* background-color: rgb(112, 19, 19); */
+  /* width: 40vw; */
 }
-.wrapper span{
+/* .wrapper span{
   color: #00FF90;
-}
+} */
 .group3595{
   
   /* border: 1px solid green; */
-  height: 50rem;
-  background: url("./Assets/Group\ 3595.png");
+  height: 29rem;
+  /* width: 100%; */
+  /* height: auto; */
+  background: url("./Assets/banner.svg");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
   background-attachment: scroll;
 }
 .btn-00FF90{
-  background:#80ED99;
-  color:#00326C;
+  background:#E1701A;
+  border-radius: 9.0rem 9.0rem 5.0rem 5.0rem;
+  color: #fff;
 }
 .btn-00FF90-outline{
-  border:0.1rem solid #80ED99 ;
-  color: #00FF90;
+  border:0.1rem solid #E1701A ;
+  border-radius: 9.0rem 9.0rem 5.0rem 5.0rem;
+  color: #E1701A;
 }
             /* card */
 
@@ -286,7 +328,8 @@ box-shadow: 0rem 1.3rem 1.9rem rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
-  /* align-items: center; */
+  align-items: center;
+  justify-content: center;
   /* margin:0 5rem;  */
   /* background-color: gray; */
 }

@@ -23,10 +23,10 @@ const App=(history)=> {
     <>
      <Header_top/>
      {/* <Dashboard/> */}
-     {/* <Routes>
+     <Routes>
        <Route path="/"/>
      </Routes>
-     <Header_wb/>
+     {/* <Header_wb/> */}
     
     <Routes>
       <Route path="/" element={<Home />} />
@@ -36,10 +36,10 @@ const App=(history)=> {
       <Route path="/Coursecatalog" element={<Coursecatalog />} />
       <Route path="*" element={<Home />} />
     </Routes>
-   */}
+  
     
-    <Signup/>
-    <Signin/>
+    {/* <Signup/>
+    <Signin/> */}
     <Footer/>
     
     </>
